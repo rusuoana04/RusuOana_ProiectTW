@@ -1,0 +1,50 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  width: 150px; /* Ajustează dimensiunea logo-ului după preferințe */
+  height: auto;
+  margin-bottom: 20px;
+  animation: App-logo-spin infinite 20s linear; /* Animația de rotație */
+}
+
+.App-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #282c34;
+  padding: 60px; /* Ajustează padding-ul după preferințe */
+  height: 400px; /* Ajustează înălțimea după preferințe */
+  color: white;
+}
+
+h1 {
+  font-size: 2em; /* Ajustează dimensiunea fontului după preferințe */
+  color: white;
+  margin: 10px 0;
+}
+
+h2 {
+  font-size: 1.5em; /* Ajustează dimensiunea fontului după preferințe */
+  color: #282c34;
+  margin: 20px 0;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+section {
+  margin: 20px 0;
+}
